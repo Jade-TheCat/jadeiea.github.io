@@ -1,0 +1,98 @@
+/* Ruby */
+:root {
+    --ruby: rgb(237, 56, 56);
+    --ruby-dark: rgb(193, 42, 42);
+    --ruby-light: rgb(255, 58, 58);
+    --ruby-pastel: rgb(255, 178, 178);
+    --ruby-neon: rgb(221, 0, 72);
+}
+
+/* Amber */
+:root {
+    --amber: rgb(229, 126, 9);
+    --amber-dark: rgb(196, 109, 9);
+    --amber-light: rgb(255, 136, 0);
+    --amber-pastel: rgb(255, 179, 71);
+    --amber-neon: rgb(253, 95, 0);
+}
+
+/* Citrine */
+:root {
+    --citrine: rgb(236, 210, 39);
+    --citrine-dark: rgb(230, 201, 0);
+    --citrine-light: rgb(255, 255, 0);
+    --citrine-pastel: rgb(255, 255, 159);
+    --citrine-neon: rgb(243, 243, 21);
+}
+
+/* Jade */
+:root {
+    --jade: rgb(96, 255, 55);
+    --jade-dark: rgb(41, 206, 0);
+    --jade-light: rgb(96, 255, 55);
+    --jade-pastel: rgb(156, 255, 132);
+    --jade-neon: rgb(57, 255, 20);
+}
+
+/* Aquamarine */
+:root {
+    --aquamarine: rgb(94, 253, 245);
+    --aquamarine-dark: rgb(2, 191, 182);
+    --aquamarine-light: rgb(113, 242, 253);
+    --aquamarine-pastel: rgb(171, 254, 250);
+    --aquamarine-neon: rgb(67, 251, 224);
+}
+
+/* Lapis */
+:root {
+    --lapis: rgb(72, 63, 254);
+    --lapis-dark: rgb(12, 1, 203);
+    --lapis-light: rgb(97, 126, 248);
+    --lapis-pastel: rgb(162, 234, 224);
+    --lapis-neon: rgb(103, 200, 255);
+}
+
+/* Amethyst */
+:root {
+    --amethyst: rgb(165, 56, 211);
+    --amethyst-dark: rgb(134, 31, 173);
+    --amethyst-light: rgb(200, 101, 224);
+    --amethyst-pastel: rgb(196, 142, 232);
+    --amethyst-neon: rgb(127, 0, 255);
+}
+
+/* Rose Quartz */
+:root {
+    --rosequartz: rgb(235, 103, 222);
+    --rosequartz-dark: rgb(220, 50, 216);
+    --rosequartz-light: rgb(251, 123, 248);
+    --rosequartz-pastel: rgb(253, 189, 252);
+    --rosequartz-neon: rgb(255, 13, 191);
+}
+
+/* Quartz */ 
+:root {
+    --quartz: rgb(189, 189, 189);
+    --quartz-light: rgb(204, 204, 204);
+    --quartz-dark: rgb(175, 175, 175);
+    --quartz-pastel: rgb(244, 241, 214);
+    --quartz-neon: rgb(255, 255, 255);
+}
+
+/* Slate */
+:root {
+    --slate: rgb(50, 57, 61);
+    --slate-light: rgb(70, 70, 70);
+    --slate-dark: rgb(29, 29, 29);
+    --slate-pastel: rgb(81, 81, 77);
+    --slate-neon: rgb(127, 127, 127);
+}
+
+/* Onyx */
+:root {
+    --onyx: rgb(55, 55, 55);
+    --onyx-light: rgb(74, 74, 74);
+    --onyx-dark: rgb(42, 42, 42);
+    --onyx-pastel: 	rgb(102, 102, 102);
+    --onyx-neon: rgb(0, 0, 0);
+}

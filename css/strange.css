@@ -1,0 +1,315 @@
+/* Colors */
+@import url("strange-colors.css");
+/* GFonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Source+Code+Pro');
+
+:root {
+    --background: var(--slate);
+    --background-dark: var(--onyx-dark);
+    --foreground: var(--quartz);
+    --foreground-dark: var(--quartz-dark);
+    --accent: var(--amethyst);
+    --accent-dark: var(--amethyst-dark);
+    --separator: var(--slate-dark);
+
+    --header-font: 'Open Sans';
+    --text-font: 'Roboto';
+    --code-font: 'Source Code Pro';
+}
+
+body {
+    color: var(--foreground);
+    background-color: var(--background-dark);
+    font-family: var(--text-font);
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent);
+}
+
+nav ul {
+    list-style-type: disc;
+}
+
+header h1 h2 h3 h4 h5 h6 {
+    font-family: var(--header-font);
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+mark {
+    background-color: var(--accent-dark);
+    color: var(--foreground);
+}
+
+/* For centred pages with sidenav */
+main.content-centred-sidenav {
+	text-align: center;
+    margin-left: 10%;
+    padding: 1px 16px;
+    height: 1000px;
+	font-family: "Open Sans" , sans-serif;
+}
+/* For centred pages without sidenav */
+main.content-centred {
+	text-align: center;
+    padding: 1px 16px;
+    height: 1000px;
+	font-family: "Open Sans" , sans-serif;
+}
+
+/* Sidenav */
+
+ul.sidenav {
+	border-radius: 10px;
+	text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: var(--background);
+    position: fixed;
+    height: 90%;
+    overflow: auto;
+}
+
+ul.sidenav li a {
+    display: block;
+    color: var(--foreground);
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: var(--background);
+    border-top: 3px solid var(--separator);
+}
+ 
+ul.sidenav li a.active {
+    background-color: var(--accent);
+    color: var(--foreground);
+}
+
+ul.sidenav li a:hover:not(.active) {
+    background-color: var(--accent-dark);
+    color: var(--foreground);
+}
+
+/* Code */
+
+code {
+    border-radius: 5px;
+    background-color: var(--background);
+    color: var(--foreground-dark);
+    padding: 2px 4px;
+    font-family: var(--code-font);
+    font-size: 14px;
+}
+
+samp {
+    background-color: var(--background);
+}
+
+kbd {
+    background-color: var(--background);
+}
+
+/* Table Stuff */
+
+table {
+    display: table;
+    border: solid 2px var(--accent);
+    border-collapse: collapse;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border: solid 2px var(--accent);
+}
+
+tfoot {
+    display: table-footer-group;
+    vertical-align: middle;
+    border: solid 2px var(--accent);
+}
+
+table > tr {
+    vertical-align: middle;
+}
+
+col {
+    display: table-column;
+}
+
+colgroup {
+    display: table-column-group;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border: solid 2px var(--accent);
+}
+
+td, th {
+    display: table-cell;
+    border: solid 2px var(--accent);
+    vertical-align: inherit;
+    padding: 2px 4px;
+}
+
+th {
+    font-weight: bold;
+}
+
+caption {
+    display: table-caption;
+    font-weight: bold;
+    font-family: var(--header-font);
+    text-align: -webkit-center;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {    
+    background-color: var(--background);
+    width: .8em
+}
+::-webkit-scrollbar:horizontal {
+    height: .8em
+}
+::-webkit-scrollbar-corner {
+    background-color: var(--background);
+}
+::-webkit-scrollbar-thumb:window-inactive,
+::-webkit-scrollbar-thumb {
+        background: var(--foreground);
+}
+
+/* Embedded Content */
+
+meter::-webkit-meter-bar {
+    background:none;
+    background-color: var(--background);
+    border: solid 2px var(--foreground-dark);
+}
+
+meter::-webkit-meter-optimum-value {
+    background: none;
+    background-color: var(--accent);
+}
+
+meter::-moz-meter-bar {
+    background: none;
+    background-color: var(--accent);
+}
+
+meter {
+    background:none;
+    background-color: var(--background);
+    border: solid 2px var(--foreground-dark);
+}
+
+progress[value] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border:none;
+    border: solid 2px var(--foreground-dark);
+  }
+
+progress[value]::-webkit-progress-bar {
+    background:none;
+    background-color: var(--background);
+    border: solid 2px var(--foreground-dark);
+}
+
+progress[value]::-webkit-progress-value {
+    background: none;
+    background-color: var(--accent);
+}
+progress:not([value]) {
+    background:none;
+    background-color: var(--background-dark);
+    border: solid 2px var(--foreground-dark);
+}
+
+progress:not([value])::-moz-progress-bar {
+    background: none;
+    background-color: var(--accent);
+}
+
+
+/* Forms */
+
+input {
+    background-color: var(--background);
+    color: var(--foreground);
+    border: 0;
+    box-sizing: border-box;
+    padding-left: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border: solid 2px var(--background-dark)
+}
+input[type="number"] {
+    -webkit-appearance: textfield;
+       -moz-appearance: textfield;
+            appearance: textfield;
+}
+input:focus {
+    border: solid 2px var(--accent-dark);
+}
+
+textarea {
+    background-color: var(--background);
+    color: var(--foreground);
+    border: 0;
+    box-sizing: border-box;
+    padding-left: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border: solid 2px var(--background-dark);
+    font-family: var(--code-font);
+}
+
+button {
+    border: none;
+    margin: 0;
+    height: 60px;
+    width: 100px;
+    border-left: 3px solid var(--separator);
+    background-color: var(--background);
+    color: var(--foreground);
+    text-align: center;
+    text-decoration: none;
+}
+
+button:focus {
+    outline: 0;
+}
+button:hover {
+    background-color: var(--accent-dark);
+    cursor: pointer;
+}
+button:disabled:hover {
+    background-color: var(--background);
+    cursor: default;
+}
+
+select {
+    border: none;
+    background-color: var(--background);
+    color: var(--foreground);
+}
+optgroup {
+    background-color: var(--background);
+    color: var(--foreground);
+}
